@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import "../globals.css";
+import { AOSInit } from './../app/ui/aos'
+
+import "./globals.css";
 import Nav from "@/app/pages/landing/header/Header";
-import { jost } from "../ui/fonts";
+import { jost } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "Nurva",
@@ -16,7 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${jost.className}`}>
+      <AOSInit></AOSInit>
+      <body className={` ${jost.className} `} >
         <Nav></Nav>
         {children}</body>
     </html>

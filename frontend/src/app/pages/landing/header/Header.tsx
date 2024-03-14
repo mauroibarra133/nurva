@@ -16,7 +16,7 @@ function Nav() {
 
   return (
     <>
-      <header className="flex justify-between items-center xs:px-2 xs:pt-4 sm:p-6 w-full z-header sticky top-0 bg-white">
+      <header className="flex justify-between items-center xs:px-2 xs:pt-4 sm:p-6 w-full z-header sticky top-0 bg-white" data-aos='fade-down'>
         {/* Logo */}
         <div className="w-full flex justify-center items-center px-4">
           <div>

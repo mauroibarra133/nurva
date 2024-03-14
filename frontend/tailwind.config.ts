@@ -24,7 +24,8 @@ const config: Config = {
           800: '#CCD3D3',
           900: '#E4E5FC'
         },
-        'nurva-black': '#212121'
+        'nurva-black': '#212121',
+        'nurva-violet': '#9575CD'
       },
       backgroundColor: {
         'nurva-gradient-blue': 'linear-gradient(to right, #6467FA, #5040CC)',
@@ -38,6 +39,8 @@ const config: Config = {
         // => @media (min-width: 640px) { ... }
   
         'md': '768px',
+        // => @media (min-width: 768px) { ... }
+        'mdx2': '820px',
         // => @media (min-width: 768px) { ... }
   
         'lg': '1024px',
@@ -57,7 +60,7 @@ const config: Config = {
       },
       backgroundImage:{
         'hero-space': 'url("/public/space.jpg")'
-      }
+      },
     },
   },
   plugins: [],
